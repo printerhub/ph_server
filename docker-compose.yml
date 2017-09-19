@@ -12,5 +12,3 @@ services:
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=printer_hub_dev
-      
-
