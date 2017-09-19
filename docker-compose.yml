@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+
+  mongodb:
+    image: postgres
+    container_name: ph_postgres
+    ports:
+      - "5432:5432"
+
+    environment:
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=printer_hub_dev
+      
+
